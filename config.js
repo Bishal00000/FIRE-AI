@@ -6,12 +6,12 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const ownervb = process.env.OWNERS || "2349013432338; Opaksfire"
+const ownervb = process.env.OWNERS || "+919123861985; Opaksfire"
 
 
 const ownerlist = ownervb.split(';');
 
-global.owner = [];
+global.owner = [DxBishal];
 for (let i = 0; i < ownerlist.length; i += 2) {
     const owner = [
         ownerlist[i],            
@@ -21,7 +21,7 @@ for (let i = 0; i < ownerlist.length; i += 2) {
     global.owner.push(owner);
 }
 
-//global.pairingNumber = "" //put your bot number here
+//global.pairingNumber = "" //+919330368145
 
 global.mods = ['2349013432338', '2349013432338']
 global.prems = ['2349013432338', '2349013432338', '2349013432338']
@@ -69,7 +69,7 @@ global.APIKeys = {
 }
 
 // Sticker WM
-global.botname = process.env.BOTNAME
+global.botname = process.env.BOTNAME DxBishal
 global.premium = 'false'
 global.packname = 'FIRE MD'
 global.author = 'OPAKSFIRE'
